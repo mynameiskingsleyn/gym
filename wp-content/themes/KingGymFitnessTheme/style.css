@@ -11,13 +11,4 @@
     Text Domain: gymfitness
 */
 
-:root {
-    /** Fonts **/
-    --mainFont: 'Staatliches', cursive;
-    --textFont: 'Open Sans', sans-serif;
-    --secondaryFont: 'Raleway',sans-serif;
-}
-
-body {
-    font-family: var(--textFont);
-}
+@import './css/main.css';
