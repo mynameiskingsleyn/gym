@@ -1,0 +1,23 @@
+/*
+    Theme Name: Gym Fitness
+    Theme URI:
+    Author: Kingsley Nwankwo
+    Author URI: https://www.twitter.com/kingsley
+    Description: Theme designed for gym
+    Version: 1.0
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Tags: CSS Grid, Flexbox ready, mobile first, gym theme
+    Text Domain: gymfitness
+*/
+
+:root {
+    /** Fonts **/
+    --mainFont: 'Staatliches', cursive;
+    --textFont: 'Open Sans', sans-serif;
+    --secondaryFont: 'Raleway',sans-serif;
+}
+
+body {
+    font-family: var(--textFont);
+}

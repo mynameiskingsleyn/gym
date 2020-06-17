@@ -1,0 +1,16 @@
+[16-Jun-2020 20:55:23 UTC] PHP Fatal error:  Allowed memory size of 2097152 bytes exhausted (tried to allocate 36864 bytes) in /home/vagrant/Wordpress-projects/gym/wp/wp-includes/formatting.php on line 5925
+[16-Jun-2020 20:55:23 UTC] PHP Stack trace:
+[16-Jun-2020 20:55:23 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/install.php:0
+[16-Jun-2020 20:55:23 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/install.php:36
+[16-Jun-2020 20:55:23 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:37
+[16-Jun-2020 20:55:23 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-config.php:98
+[16-Jun-2020 20:55:23 UTC] PHP Fatal error:  Allowed memory size of 2097152 bytes exhausted (tried to allocate 4096 bytes) in /home/vagrant/Wordpress-projects/gym/wp/wp-includes/load.php on line 1165
+[16-Jun-2020 20:55:23 UTC] PHP Stack trace:
+[16-Jun-2020 20:55:23 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/install.php:0
+[16-Jun-2020 20:55:23 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/install.php:36
+[16-Jun-2020 20:55:23 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:37
+[16-Jun-2020 20:55:23 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-config.php:98
+[16-Jun-2020 20:55:23 UTC] PHP   5. WP_Fatal_Error_Handler->handle() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-fatal-error-handler.php:0
+[16-Jun-2020 20:55:23 UTC] PHP   6. WP_Fatal_Error_Handler->display_error_template() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-fatal-error-handler.php:52
+[16-Jun-2020 20:55:23 UTC] PHP   7. WP_Fatal_Error_Handler->display_default_error_template() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-fatal-error-handler.php:147
+[16-Jun-2020 20:55:23 UTC] PHP   8. wp_load_translations_early() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-fatal-error-handler.php:167

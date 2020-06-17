@@ -1,0 +1,228 @@
+[17-Jun-2020 03:59:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_contenth() in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/page.php:6
+Stack trace:
+#0 /home/vagrant/Wordpress-projects/gym/wp/wp-includes/template-loader.php(106): include()
+#1 /home/vagrant/Wordpress-projects/gym/wp/wp-blog-header.php(19): require_once('/home/vagrant/W...')
+#2 /home/vagrant/Wordpress-projects/gym/index.php(17): require('/home/vagrant/W...')
+#3 {main}
+  thrown in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/page.php on line 6
+[17-Jun-2020 05:03:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_path() in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/page.php:2
+Stack trace:
+#0 /home/vagrant/Wordpress-projects/gym/wp/wp-includes/template-loader.php(106): include()
+#1 /home/vagrant/Wordpress-projects/gym/wp/wp-blog-header.php(19): require_once('/home/vagrant/W...')
+#2 /home/vagrant/Wordpress-projects/gym/index.php(17): require('/home/vagrant/W...')
+#3 {main}
+  thrown in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/page.php on line 2
+[17-Jun-2020 05:04:02 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_template_part(), 0 passed in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/page.php on line 2 and at least 1 expected in /home/vagrant/Wordpress-projects/gym/wp/wp-includes/general-template.php:135
+Stack trace:
+#0 /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/page.php(2): get_template_part()
+#1 /home/vagrant/Wordpress-projects/gym/wp/wp-includes/template-loader.php(106): include('/home/vagrant/W...')
+#2 /home/vagrant/Wordpress-projects/gym/wp/wp-blog-header.php(19): require_once('/home/vagrant/W...')
+#3 /home/vagrant/Wordpress-projects/gym/index.php(17): require('/home/vagrant/W...')
+#4 {main}
+  thrown in /home/vagrant/Wordpress-projects/gym/wp/wp-includes/general-template.php on line 135
+[17-Jun-2020 05:17:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'gymfitness_menus' not found or invalid function name in /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-hook.php on line 287
+[17-Jun-2020 05:17:58 UTC] PHP Stack trace:
+[17-Jun-2020 05:17:58 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin-ajax.php:0
+[17-Jun-2020 05:17:58 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin-ajax.php:22
+[17-Jun-2020 05:17:58 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:17:58 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:17:58 UTC] PHP   5. do_action() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:567
+[17-Jun-2020 05:17:58 UTC] PHP   6. WP_Hook->do_action() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/plugin.php:478
+[17-Jun-2020 05:17:58 UTC] PHP   7. WP_Hook->apply_filters() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-hook.php:311
+[17-Jun-2020 05:19:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'gymfitness_menus' not found or invalid function name in /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-hook.php on line 287
+[17-Jun-2020 05:19:58 UTC] PHP Stack trace:
+[17-Jun-2020 05:19:58 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin-ajax.php:0
+[17-Jun-2020 05:19:58 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin-ajax.php:22
+[17-Jun-2020 05:19:58 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:19:58 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:19:58 UTC] PHP   5. do_action() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:567
+[17-Jun-2020 05:19:58 UTC] PHP   6. WP_Hook->do_action() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/plugin.php:478
+[17-Jun-2020 05:19:58 UTC] PHP   7. WP_Hook->apply_filters() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-hook.php:311
+[17-Jun-2020 05:20:49 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'gymfitness_menus' not found or invalid function name in /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-hook.php on line 287
+[17-Jun-2020 05:20:49 UTC] PHP Stack trace:
+[17-Jun-2020 05:20:49 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin-ajax.php:0
+[17-Jun-2020 05:20:49 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin-ajax.php:22
+[17-Jun-2020 05:20:49 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:20:49 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:20:49 UTC] PHP   5. do_action() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:567
+[17-Jun-2020 05:20:49 UTC] PHP   6. WP_Hook->do_action() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/plugin.php:478
+[17-Jun-2020 05:20:49 UTC] PHP   7. WP_Hook->apply_filters() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-hook.php:311
+[17-Jun-2020 05:21:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'gymfitness_menus' not found or invalid function name in /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-hook.php on line 287
+[17-Jun-2020 05:21:06 UTC] PHP Stack trace:
+[17-Jun-2020 05:21:06 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin-ajax.php:0
+[17-Jun-2020 05:21:06 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin-ajax.php:22
+[17-Jun-2020 05:21:06 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:21:06 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:21:06 UTC] PHP   5. do_action() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:567
+[17-Jun-2020 05:21:06 UTC] PHP   6. WP_Hook->do_action() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/plugin.php:478
+[17-Jun-2020 05:21:06 UTC] PHP   7. WP_Hook->apply_filters() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-hook.php:311
+[17-Jun-2020 05:21:33 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/vagrant/Wordpress-projects/gym/wp/wp-includes/update.php on line 578
+[17-Jun-2020 05:21:34 UTC] PHP Stack trace:
+[17-Jun-2020 05:21:34 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/themes.php:0
+[17-Jun-2020 05:21:34 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/themes.php:10
+[17-Jun-2020 05:21:34 UTC] PHP   3. do_action() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin.php:367
+[17-Jun-2020 05:21:34 UTC] PHP   4. WP_Hook->do_action() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/plugin.php:478
+[17-Jun-2020 05:21:34 UTC] PHP   5. WP_Hook->apply_filters() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-hook.php:311
+[17-Jun-2020 05:21:34 UTC] PHP   6. wp_update_themes() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-hook.php:287
+[17-Jun-2020 05:21:34 UTC] PHP   7. trigger_error() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/update.php:578
+[17-Jun-2020 05:23:19 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'gymfitness_men' not found or invalid function name in /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-hook.php on line 287
+[17-Jun-2020 05:23:19 UTC] PHP Stack trace:
+[17-Jun-2020 05:23:19 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/themes.php:0
+[17-Jun-2020 05:23:19 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/themes.php:10
+[17-Jun-2020 05:23:19 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin.php:34
+[17-Jun-2020 05:23:19 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:23:19 UTC] PHP   5. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:23:19 UTC] PHP   6. do_action() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:567
+[17-Jun-2020 05:23:19 UTC] PHP   7. WP_Hook->do_action() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/plugin.php:478
+[17-Jun-2020 05:23:19 UTC] PHP   8. WP_Hook->apply_filters() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-hook.php:311
+[17-Jun-2020 05:23:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/functions.php on line 9 and exactly 2 expected in /home/vagrant/Wordpress-projects/gym/wp/wp-includes/nav-menu.php:135
+Stack trace:
+#0 /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/functions.php(9): register_nav_menu()
+#1 /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-hook.php(287): gymfitness_menu()
+#2 /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#3 /home/vagrant/Wordpress-projects/gym/wp/wp-includes/plugin.php(478): WP_Hook->do_action()
+#4 /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php(567): do_action()
+#5 /home/vagrant/Wordpress-projects/gym/wp-config.php(104): require_once('/home/vagrant/W...')
+#6 /home/vagrant/Wordpress-projects/gym/wp/wp-load.php(42): require_once('/home/vagrant/W...')
+#7 /home/vagrant/Wordpress-projects/gym/wp/wp-ad in /home/vagrant/Wordpress-projects/gym/wp/wp-includes/nav-menu.php on line 135
+[17-Jun-2020 05:29:03 UTC] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/functions.php on line 6
+[17-Jun-2020 05:29:03 UTC] PHP Stack trace:
+[17-Jun-2020 05:29:03 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin-ajax.php:0
+[17-Jun-2020 05:29:03 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin-ajax.php:22
+[17-Jun-2020 05:29:03 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:29:03 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:29:03 UTC] PHP   5. include() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:535
+[17-Jun-2020 05:29:03 UTC] PHP Warning:  require_once(http://gym.test/wp-content/themes/KingGymFitnessTheme/inc/setup.php): failed to open stream: no suitable wrapper could be found in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/functions.php on line 6
+[17-Jun-2020 05:29:03 UTC] PHP Stack trace:
+[17-Jun-2020 05:29:03 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin-ajax.php:0
+[17-Jun-2020 05:29:03 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin-ajax.php:22
+[17-Jun-2020 05:29:03 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:29:03 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:29:03 UTC] PHP   5. include() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:535
+[17-Jun-2020 05:29:03 UTC] PHP Fatal error:  require_once(): Failed opening required 'http://gym.test/wp-content/themes/KingGymFitnessTheme/inc/setup.php' (include_path='.:/usr/share/php') in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/functions.php on line 6
+[17-Jun-2020 05:29:03 UTC] PHP Stack trace:
+[17-Jun-2020 05:29:03 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin-ajax.php:0
+[17-Jun-2020 05:29:03 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin-ajax.php:22
+[17-Jun-2020 05:29:03 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:29:03 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:29:03 UTC] PHP   5. include() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:535
+[17-Jun-2020 05:29:03 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-recovery-mode-email-service.php on line 339
+[17-Jun-2020 05:29:03 UTC] PHP Stack trace:
+[17-Jun-2020 05:29:03 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin-ajax.php:0
+[17-Jun-2020 05:29:03 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin-ajax.php:22
+[17-Jun-2020 05:29:03 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:29:03 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:29:03 UTC] PHP   5. include() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:535
+[17-Jun-2020 05:29:03 UTC] PHP   6. WP_Fatal_Error_Handler->handle() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-fatal-error-handler.php:0
+[17-Jun-2020 05:29:03 UTC] PHP   7. WP_Recovery_Mode->handle_error() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-fatal-error-handler.php:47
+[17-Jun-2020 05:29:03 UTC] PHP   8. WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-recovery-mode.php:184
+[17-Jun-2020 05:29:03 UTC] PHP   9. WP_Recovery_Mode_Email_Service->send_recovery_mode_email() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-recovery-mode-email-service.php:59
+[17-Jun-2020 05:29:03 UTC] PHP  10. WP_Recovery_Mode_Email_Service->get_debug() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-recovery-mode-email-service.php:148
+[17-Jun-2020 05:29:03 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-recovery-mode-email-service.php on line 340
+[17-Jun-2020 05:29:03 UTC] PHP Stack trace:
+[17-Jun-2020 05:29:03 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin-ajax.php:0
+[17-Jun-2020 05:29:03 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin-ajax.php:22
+[17-Jun-2020 05:29:03 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:29:03 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:29:03 UTC] PHP   5. include() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:535
+[17-Jun-2020 05:29:03 UTC] PHP   6. WP_Fatal_Error_Handler->handle() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-fatal-error-handler.php:0
+[17-Jun-2020 05:29:03 UTC] PHP   7. WP_Recovery_Mode->handle_error() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-fatal-error-handler.php:47
+[17-Jun-2020 05:29:03 UTC] PHP   8. WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-recovery-mode.php:184
+[17-Jun-2020 05:29:03 UTC] PHP   9. WP_Recovery_Mode_Email_Service->send_recovery_mode_email() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-recovery-mode-email-service.php:59
+[17-Jun-2020 05:29:03 UTC] PHP  10. WP_Recovery_Mode_Email_Service->get_debug() /home/vagrant/Wordpress-projects/gym/wp/wp-includes/class-wp-recovery-mode-email-service.php:148
+[17-Jun-2020 05:29:05 UTC] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/functions.php on line 6
+[17-Jun-2020 05:29:05 UTC] PHP Stack trace:
+[17-Jun-2020 05:29:05 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:0
+[17-Jun-2020 05:29:05 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:13
+[17-Jun-2020 05:29:05 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin.php:34
+[17-Jun-2020 05:29:05 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:29:05 UTC] PHP   5. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:29:05 UTC] PHP   6. include() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:535
+[17-Jun-2020 05:29:05 UTC] PHP Warning:  require_once(http://gym.test/wp-content/themes/KingGymFitnessTheme/inc/setup.php): failed to open stream: no suitable wrapper could be found in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/functions.php on line 6
+[17-Jun-2020 05:29:05 UTC] PHP Stack trace:
+[17-Jun-2020 05:29:05 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:0
+[17-Jun-2020 05:29:05 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:13
+[17-Jun-2020 05:29:05 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin.php:34
+[17-Jun-2020 05:29:05 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:29:05 UTC] PHP   5. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:29:05 UTC] PHP   6. include() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:535
+[17-Jun-2020 05:29:05 UTC] PHP Fatal error:  require_once(): Failed opening required 'http://gym.test/wp-content/themes/KingGymFitnessTheme/inc/setup.php' (include_path='.:/usr/share/php') in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/functions.php on line 6
+[17-Jun-2020 05:29:05 UTC] PHP Stack trace:
+[17-Jun-2020 05:29:05 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:0
+[17-Jun-2020 05:29:05 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:13
+[17-Jun-2020 05:29:05 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin.php:34
+[17-Jun-2020 05:29:05 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:29:05 UTC] PHP   5. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:29:05 UTC] PHP   6. include() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:535
+[17-Jun-2020 05:29:39 UTC] PHP Warning:  require(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/functions.php on line 6
+[17-Jun-2020 05:29:39 UTC] PHP Stack trace:
+[17-Jun-2020 05:29:39 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:0
+[17-Jun-2020 05:29:39 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:13
+[17-Jun-2020 05:29:39 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin.php:34
+[17-Jun-2020 05:29:39 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:29:39 UTC] PHP   5. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:29:39 UTC] PHP   6. include() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:535
+[17-Jun-2020 05:29:39 UTC] PHP Warning:  require(http://gym.test/wp-content/themes/KingGymFitnessTheme/inc/setup.php): failed to open stream: no suitable wrapper could be found in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/functions.php on line 6
+[17-Jun-2020 05:29:39 UTC] PHP Stack trace:
+[17-Jun-2020 05:29:39 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:0
+[17-Jun-2020 05:29:39 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:13
+[17-Jun-2020 05:29:39 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin.php:34
+[17-Jun-2020 05:29:39 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:29:39 UTC] PHP   5. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:29:39 UTC] PHP   6. include() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:535
+[17-Jun-2020 05:29:39 UTC] PHP Fatal error:  require(): Failed opening required 'http://gym.test/wp-content/themes/KingGymFitnessTheme/inc/setup.php' (include_path='.:/usr/share/php') in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/functions.php on line 6
+[17-Jun-2020 05:29:39 UTC] PHP Stack trace:
+[17-Jun-2020 05:29:39 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:0
+[17-Jun-2020 05:29:39 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:13
+[17-Jun-2020 05:29:39 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin.php:34
+[17-Jun-2020 05:29:39 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:29:39 UTC] PHP   5. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:29:39 UTC] PHP   6. include() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:535
+[17-Jun-2020 05:29:55 UTC] PHP Warning:  require(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/functions.php on line 7
+[17-Jun-2020 05:29:55 UTC] PHP Stack trace:
+[17-Jun-2020 05:29:55 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:0
+[17-Jun-2020 05:29:55 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:13
+[17-Jun-2020 05:29:55 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin.php:34
+[17-Jun-2020 05:29:55 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:29:55 UTC] PHP   5. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:29:55 UTC] PHP   6. include() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:535
+[17-Jun-2020 05:29:55 UTC] PHP Warning:  require(http://gym.test/wp-content/themes/KingGymFitnessTheme/inc/setup.php): failed to open stream: no suitable wrapper could be found in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/functions.php on line 7
+[17-Jun-2020 05:29:55 UTC] PHP Stack trace:
+[17-Jun-2020 05:29:55 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:0
+[17-Jun-2020 05:29:55 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:13
+[17-Jun-2020 05:29:55 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin.php:34
+[17-Jun-2020 05:29:55 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:29:55 UTC] PHP   5. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:29:55 UTC] PHP   6. include() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:535
+[17-Jun-2020 05:29:55 UTC] PHP Fatal error:  require(): Failed opening required 'http://gym.test/wp-content/themes/KingGymFitnessTheme/inc/setup.php' (include_path='.:/usr/share/php') in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/functions.php on line 7
+[17-Jun-2020 05:29:55 UTC] PHP Stack trace:
+[17-Jun-2020 05:29:55 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:0
+[17-Jun-2020 05:29:55 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:13
+[17-Jun-2020 05:29:55 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin.php:34
+[17-Jun-2020 05:29:55 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:29:55 UTC] PHP   5. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:29:55 UTC] PHP   6. include() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:535
+[17-Jun-2020 05:30:17 UTC] PHP Warning:  require(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/functions.php on line 7
+[17-Jun-2020 05:30:17 UTC] PHP Stack trace:
+[17-Jun-2020 05:30:17 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:0
+[17-Jun-2020 05:30:17 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:13
+[17-Jun-2020 05:30:17 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin.php:34
+[17-Jun-2020 05:30:17 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:30:17 UTC] PHP   5. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:30:17 UTC] PHP   6. include() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:535
+[17-Jun-2020 05:30:17 UTC] PHP Warning:  require(http://gym.test/wp-content/themes/KingGymFitnessTheme/inc/setup.php): failed to open stream: no suitable wrapper could be found in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/functions.php on line 7
+[17-Jun-2020 05:30:17 UTC] PHP Stack trace:
+[17-Jun-2020 05:30:17 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:0
+[17-Jun-2020 05:30:17 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:13
+[17-Jun-2020 05:30:17 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin.php:34
+[17-Jun-2020 05:30:17 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:30:17 UTC] PHP   5. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:30:17 UTC] PHP   6. include() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:535
+[17-Jun-2020 05:30:17 UTC] PHP Fatal error:  require(): Failed opening required 'http://gym.test/wp-content/themes/KingGymFitnessTheme/inc/setup.php' (include_path='.:/usr/share/php') in /home/vagrant/Wordpress-projects/gym/wp-content/themes/KingGymFitnessTheme/functions.php on line 7
+[17-Jun-2020 05:30:17 UTC] PHP Stack trace:
+[17-Jun-2020 05:30:17 UTC] PHP   1. {main}() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:0
+[17-Jun-2020 05:30:17 UTC] PHP   2. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/nav-menus.php:13
+[17-Jun-2020 05:30:17 UTC] PHP   3. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-admin/admin.php:34
+[17-Jun-2020 05:30:17 UTC] PHP   4. require_once() /home/vagrant/Wordpress-projects/gym/wp/wp-load.php:42
+[17-Jun-2020 05:30:17 UTC] PHP   5. require_once() /home/vagrant/Wordpress-projects/gym/wp-config.php:104
+[17-Jun-2020 05:30:17 UTC] PHP   6. include() /home/vagrant/Wordpress-projects/gym/wp/wp-settings.php:535
